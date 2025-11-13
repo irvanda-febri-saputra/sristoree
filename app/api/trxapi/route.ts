@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'trxid is required' }, { status: 400 });
         }
 
-        const res = await fetch('https://admin.sristoree..com/api/cektrx', {
+        const res = await fetch('https://admin.sristoree.com/api/cektrx', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ trxid }),

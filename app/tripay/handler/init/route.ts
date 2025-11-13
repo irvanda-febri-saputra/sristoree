@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     console.log(signature);
     console.log(body);
 
-    const response = await fetch('https://admin.sristore.com/api/tripay/callback', {
+    const response = await fetch('https://admin.sristoree.com/api/tripay/callback', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

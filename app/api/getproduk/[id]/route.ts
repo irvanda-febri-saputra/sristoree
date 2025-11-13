@@ -18,7 +18,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
             )
         }
 
-        const backendUrl = `https://admin.sristoree..com/api/getproduk/${encodeURIComponent(id)}`
+        const backendUrl = `https://admin.sristoree.com/api/getproduk/${encodeURIComponent(id)}`
         const response = await fetch(backendUrl, {
             method: "GET",
             headers: { "Content-Type": "application/json" },

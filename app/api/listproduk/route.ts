@@ -1,6 +1,6 @@
 export async function GET() {
   try {
-    const response = await fetch("https://admin.sristoree..com/api/listproduk", {
+    const response = await fetch("https://admin.sristoree.com/api/listproduk", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

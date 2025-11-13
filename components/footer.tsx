@@ -17,13 +17,13 @@ export function Footer() {
               konten digital lainnya.
             </p>
             <div className="flex gap-3 mt-6">
-              <a href="https://chat.whatsapp.com/KN4CK4XUvz8251i8Pv11Mi" className="p-2 bg-card hover:bg-accent rounded-full transition-colors">
+              <a href="https://chat.whatsapp.com/CCMyNQGxGgs8mfW9kiMkLi" className="p-2 bg-card hover:bg-accent rounded-full transition-colors">
                 <MessageCircle className="h-5 w-5 text-foreground" />
               </a>
               <a href="mailto:support@sristoree.com" className="p-2 bg-card hover:bg-accent rounded-full transition-colors">
                 <Mail className="h-5 w-5 text-foreground" />
               </a>
-              <a href="https://t.me/vanzellagi" className="p-2 bg-card hover:bg-accent rounded-full transition-colors">
+              <a href="https://www.instagram.com/sristoree?igsh=MWhkbW01bTNuZnNzdQ==" className="p-2 bg-card hover:bg-accent rounded-full transition-colors">
                 <Send className="h-5 w-5 text-foreground" />
               </a>
             </div>
@@ -74,7 +74,7 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Lainnya</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="https://chat.whatsapp.com/KN4CK4XUvz8251i8Pv11Mi" className="hover:text-primary transition-colors">
+                <a href="https://chat.whatsapp.com/CCMyNQGxGgs8mfW9kiMkLi" className="hover:text-primary transition-colors">
                   Tanya Admin
                 </a>
               </li>

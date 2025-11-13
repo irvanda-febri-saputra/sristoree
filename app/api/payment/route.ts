@@ -1,6 +1,6 @@
 export async function GET() {
     try {
-        const response = await fetch("https://admin.sristoree..com/api/tripay/payment-channels", {
+        const response = await fetch("https://admin.sristoree.com/api/tripay/payment-channels", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

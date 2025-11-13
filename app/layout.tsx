@@ -10,7 +10,7 @@ const figtreeFont = `
 `
 
 export const metadata: Metadata = {
-  title: "Vanzelll Store",
+  title: "sristoree",
   description: "Created By Vanzelll",
   generator: "k",
 }
